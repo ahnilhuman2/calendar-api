@@ -135,6 +135,9 @@ curl http://localhost:8080/api/v1/calendars
 
 # 응답 예시 (빈 배열)
 []
+
+# Swagger UI 접속
+open http://localhost:8080/swagger-ui.html
 ```
 
 ---
@@ -167,6 +170,10 @@ open build/reports/tests/test/index.html
 ---
 
 ## 📡 API 엔드포인트
+
+### Swagger UI
+- **URL**: http://localhost:8080/swagger-ui.html
+- **OpenAPI Spec**: http://localhost:8080/api-docs
 
 ### 캘린더 (Calendar)
 | Method | Path | 설명 |
