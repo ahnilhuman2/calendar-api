@@ -12,6 +12,18 @@ spring:
         properties:
             hibernate:
                 format_sql: true
+                default_batch_fetch_size: 100
+
+    jackson:
+        time-zone: Asia/Seoul
+        serialization:
+            write-dates-as-timestamps: false
 
 server:
     port: 8080
+
+logging:
+    level:
+        com.ilchan.calendar_api: INFO
+        org.hibernate.SQL: DEBUG
+        org.hibernate.type.descriptor.sql.BasicBinder: TRACE
