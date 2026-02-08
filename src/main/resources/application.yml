@@ -16,8 +16,6 @@ spring:
 
     jackson:
         time-zone: Asia/Seoul
-        serialization:
-            write-dates-as-timestamps: false
 
 server:
     port: 8080
@@ -37,3 +35,4 @@ springdoc:
         operations-sorter: alpha
     default-consumes-media-type: application/json
     default-produces-media-type: application/json
+
